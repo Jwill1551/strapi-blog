@@ -11,7 +11,7 @@ module.exports = ({ env }) => ({
     },
   },
   secrets: {
-    encryptionKey: env('ENCRYPTION_KEY'),
+    encryptionKey: env('d38591e9186b75fd7b2ea8494fd2868811edbe88a390c71fe74ff39d1f5bf701'),
   },
   flags: {
     nps: env.bool('FLAG_NPS', true),
